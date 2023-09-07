@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "//christospeg94.github.io/kochili-villa/static/css/main.06960583.css",
+    "main.js": "//christospeg94.github.io/kochili-villa/static/js/main.61794a2f.js",
+    "static/media/yard-3.jpg": "//christospeg94.github.io/kochili-villa/static/media/yard-3.abf7c18c98dbf3ee4eae.jpg",
+    "static/media/landing.jpg": "//christospeg94.github.io/kochili-villa/static/media/landing.21e23304ef34da4348a1.jpg",
+    "static/media/front-2.jpg": "//christospeg94.github.io/kochili-villa/static/media/front-2.eaaf9cf2845a25bdf733.jpg",
+    "static/media/kouzina-2.jpg": "//christospeg94.github.io/kochili-villa/static/media/kouzina-2.c862d58e1afc1b905937.jpg",
+    "index.html": "//christospeg94.github.io/kochili-villa/index.html",
+    "main.06960583.css.map": "//christospeg94.github.io/kochili-villa/static/css/main.06960583.css.map",
+    "main.61794a2f.js.map": "//christospeg94.github.io/kochili-villa/static/js/main.61794a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06960583.css",
+    "static/js/main.61794a2f.js"
+  ]
+}
