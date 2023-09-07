@@ -1,0 +1,93 @@
+.header {
+    background: url('../../assets/landing.jpg')
+    center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    flex-direction: column;
+
+    padding-top: 25rem;
+}
+
+.title h1 {
+    color: var(--color-main);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.96px;
+}
+
+.title p {
+    color: var(--color-main);
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: -0.64px;
+
+    padding-top: 2rem;
+}
+
+.header-button {
+    padding-top: 3rem;
+}
+
+.header-button button {
+    display: flex;
+    padding: 16px 32px;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 0;
+    background: var(--color-main);
+    color: var(--color-text-button);
+    outline: none;
+    cursor: pointer;
+}
+
+.header-button button:hover {
+    background-color: var(--color-lighter);
+}
+
+@media screen and (max-width: 2000px) {
+    .title {
+        padding-top: 15rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .title {
+        padding-top: 10rem;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 28px;
+    }
+}
