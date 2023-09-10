@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 4rem 40rem 8rem;
+    padding: 4rem 25rem 8rem;
 }
 
 .footer h3 {
@@ -17,6 +17,10 @@
     font-weight: 500;
     line-height: 60px;
     letter-spacing: 1.5px;
+}
+
+.letter-a {
+    padding-left: 7rem;
 }
 
 
@@ -42,14 +46,109 @@
 .footer-copyright {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:left;
     color: var(--color-main);
     font-family: var(--font-family);
     font-size: 28px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 25px;
     letter-spacing: 1.5px;
-    padding: 1rem;
 
+    padding: 1rem;
+    
+
+}
+
+@media screen and (max-width: 2000px) {
+    .footer {
+        padding: 4rem 15rem 8rem;
+    }
+
+    .footer h3 {
+        font-size: 38px;
+        font-style: normal;
+        line-height: 55px;
+        letter-spacing: 1.3px;
+    }
+
+    .letter-a {
+        padding-left: 6.5rem;
+    }
+
+    .footer-icons {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer-copyright {
+        font-size: 20px;
+        font-style: normal;
+        line-height: 25px;
+        letter-spacing: 1.3px;
+    
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footer {
+        padding: 4rem;
+    }
+
+    .footer h3 {
+        font-size: 30px;
+        font-style: normal;
+        line-height: 55px;
+        letter-spacing: 1px;
+    }
+
+    .letter-a {
+        padding-left: 5.5rem;
+    }
+
+    .footer-icons {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-copyright {
+        font-size: 16px;
+        font-style: normal;
+        line-height: 18px;
+        letter-spacing: 1px;
+    
+        padding: 0 0 0.7rem 8rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        padding: 2rem;
+    }
+
+    .footer h3 {
+        font-size: 22px;
+        font-style: normal;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .letter-a {
+        padding-left: 4rem;
+    }
+
+    .footer-icons {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+        font-style: normal;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+    
+        padding: 0 0 0.7rem 4rem;
+    }
 }

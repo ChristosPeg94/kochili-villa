@@ -15,10 +15,10 @@ const Navbar = () => {
                 </a>
             </div>
             <div className='navbar-links_container'>
-                <a href='https://www.facebook.com/profile.php?id=100094392341996'> 
+                <a href='https://www.facebook.com/profile.php?id=100094392341996' target="_blank" rel="noreferrer"> 
                     <RiFacebookCircleFill className='navbar-links-facebook'/>                    
                 </a>
-                <a href='https://www.instagram.com/kochilivilla/'>
+                <a href='https://www.instagram.com/kochilivilla/' target="_blank" rel="noreferrer">
                     <RiInstagramFill className='navbar-links-instagram'/>
                 </a>    
             </div>

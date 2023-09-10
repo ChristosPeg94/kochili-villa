@@ -84,10 +84,24 @@
     }
 
     .title h1 {
-        font-size: 40px;
+        font-size: 32px;
+        font-weight: 500;
+
+        padding: 0 2rem;
     }
 
     .title p {
-        font-size: 28px;
+        font-size: 22px;
+        font-weight: 400;
+
+        padding: 0 2rem;
+    }
+
+    .header-button button {      
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+
+        padding: 16px 32px;
     }
 }

@@ -6,11 +6,9 @@ const Footer = () => {
   return (
     <div className='footer' id='footer'>
       <div>
-        <h3>
-        Kochili Villa
-          <br/>A<br/> 
-        Luxury Villa
-        </h3>
+        <h3>Kochili Villa</h3>
+        <h3 className='letter-a'>A</h3>
+        <h3>Luxury Villa</h3>
 
         <div className='footer-links'>
           <a href='https://www.facebook.com/profile.php?id=100094392341996'>
